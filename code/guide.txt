@@ -1,0 +1,5 @@
+
+gcc "main.s" "print.s" "arccos.s" -o pr.exe
+gcc "assembly source code/main.s" "assembly source code/print.s" "assembly source code/arccos.s" -o pr.exe
+gcc "size optimized code/main.s" "size optimized code/print.s" "size optimized code/arccos.s" -o pr.exe
+gcc "speed optimized code/main.s" "speed optimized code/print.s" "speed optimized code/arccos.s" -o pr.exe
